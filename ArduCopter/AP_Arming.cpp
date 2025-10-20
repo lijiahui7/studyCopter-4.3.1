@@ -1,5 +1,5 @@
 #include "Copter.h"
-#include <stdio.h>
+
 bool AP_Arming_Copter::pre_arm_checks(bool display_failure)
 {
     const bool passed = run_pre_arm_checks(display_failure);
